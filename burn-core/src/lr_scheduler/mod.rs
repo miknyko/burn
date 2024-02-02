@@ -6,6 +6,9 @@ pub mod noam;
 /// Step Learning rate schedule
 pub mod step;
 
+/// Warm up Learning rate schdule
+pub mod warmup;
+
 mod base;
 
 pub use base::*;
